@@ -7705,7 +7705,7 @@ react-dev-utils@^6.1.1:
     strip-ansi "4.0.0"
     text-table "0.2.0"
 
-react-dom@16.6.1:
+react-dom@^16.6.1:
   version "16.6.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.6.1.tgz#5476e08694ae504ae385a28b62ecc4fe3a29add9"
   integrity sha512-zm+wBuEMGm009Wt1uE4Zw5KcXOW7qC4E/xW/fpJsCsbOco4U/R84u+DzzO/S4SYSdNBcqcaulcp4w3FXl8pImw==
@@ -7775,7 +7775,14 @@ react-scripts@2.1.1:
   optionalDependencies:
     fsevents "1.2.4"
 
-react@16.6.1:
+react-simple-keyboard@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/react-simple-keyboard/-/react-simple-keyboard-1.9.0.tgz#af7cb2abe89a7181f37fc23182067ea6da8e7ad6"
+  integrity sha512-VeUFVkiXmFroHo9BBR5EGwXeB3I7aWqmem4ut3duDBJLn6cBkMAxOYPTSZ7MWZrh22xIw/zhR1U9lWANkfbgSQ==
+  dependencies:
+    simple-keyboard "^2.8.0"
+
+react@^16.6.1:
   version "16.6.1"
   resolved "https://registry.yarnpkg.com/react/-/react-16.6.1.tgz#ee2aef4f0a09e494594882029821049772f915fe"
   integrity sha512-OtawJThYlvRgm9BXK+xTL7BIlDx8vv21j+fbQDjRRUyok6y7NyjlweGorielTahLZHYIdKUoK2Dp9ByVWuMqxw==
@@ -8412,6 +8419,16 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
   integrity sha1-tf3AjxKH6hF4Yo5BXiUTK3NkbG0=
+
+simple-keyboard-layouts@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/simple-keyboard-layouts/-/simple-keyboard-layouts-1.1.0.tgz#a5d962d26818c5dcba3e140afc704331846763b2"
+  integrity sha512-nm1FXvpm/LwfDFYz1aJQmX/5nsYZj5N2cEiHOx57sqCb4QAl/9utdukjGKIzCE9YdgB7uyKXzLYgaspWLy8eTw==
+
+simple-keyboard@^2.8.0:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/simple-keyboard/-/simple-keyboard-2.8.0.tgz#d75091b963ec308266a8f59a9d3a840b90590056"
+  integrity sha512-nCLFvI4ZExjtDEbvSYxwzm/e23GAk6+ICdgoqQ8CU7dmJBU+z5dHN7tHjGPLeqFQ9hGqY95+ehRIW7jd/qyOUQ==
 
 simple-swizzle@^0.2.2:
   version "0.2.2"
@@ -9480,7 +9497,7 @@ whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3, whatwg-encoding@^1.0.5:
   dependencies:
     iconv-lite "0.4.24"
 
-whatwg-fetch@3.0.0:
+whatwg-fetch@3.0.0, whatwg-fetch@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/whatwg-fetch/-/whatwg-fetch-3.0.0.tgz#fc804e458cc460009b1a2b966bc8817d2578aefb"
   integrity sha512-9GSJUgz1D4MfyKU7KRqwOjXCXTqWdFNvEr7eUBYchQiVc744mqK/MzXPNR2WsPkmkOa4ywfg8C2n8h+13Bey1Q==
